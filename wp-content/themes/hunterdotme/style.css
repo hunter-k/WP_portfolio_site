@@ -1,0 +1,78 @@
+/*
+Theme Name: hunterdotme
+Theme URI: 
+Author: the Hunter Kempton
+Author URI: http://hunterkempton.me
+Description: The theme for my portfolio page
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: hunterdotme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+	font-family: verdana;
+}
+#home-page {
+	background-size: cover;
+    background-position: center 80%;
+}
+
+#Portfolio-page {
+	background-color: lightgrey;
+}
+#menu {
+	position: fixed;
+	z-index: 99;
+	margin-top: 20px;
+}
+
+#menu li{
+	display: inline;
+	background-color: rgba(157, 167, 183, 0.5);
+	width: 150px;
+	padding: 20px;
+	border-radius: 15px;
+	color: black;
+	font-size: 2em;
+}
+
+#menu li:hover{
+	background-color: rgba(157, 167, 183, 0.9);
+}
+
+#headshot-container {
+	z-index: 99;
+	background-color: black;
+	text-align: center;
+}
+
+#intro-container{
+	background-color: lightgrey;
+	text-align: center;
+}
+
+.hype-img {
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.project {
+	text-align: center;
+}
+
+.main-project-image {
+	float: none;
+	margin: 0 auto;
+}
+
+.wpcf-7form p {
+	float: none;
+	margin: 0 auto;
+}
+
