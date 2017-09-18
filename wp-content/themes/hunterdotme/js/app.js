@@ -2,7 +2,6 @@ $(function() {
 	function changeMenu () {
 		var curUrl = ($(location).attr('href'));
 		curPage = curUrl.substring(curUrl.indexOf('#') + 1, curUrl.length);
-		console.log(curPage);
 		if (curPage.indexOf('/') > 0) {
 			curPage = curPage.substring(0, curPage.indexOf('/'));
 		}

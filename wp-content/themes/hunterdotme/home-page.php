@@ -13,27 +13,29 @@
 	</ul>
 
 	<div id="fullpage">
-
-		<div class="section" id="Me-page">
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="col-xs-12 col-md-6">
-						<?php 
+	<?php $first_bg_image = get_field('first_bg_image'); ?>
+		<div class="section" id="Me-page" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('<?php echo $first_bg_image; ?>');">
+				<div class="inner-me-page row">
+					
+						<div class="col-xs-12 col-md-6">
+							<?php 
 
 							$image = get_field('main_image');
 
-						if( !empty($image) ): ?>
+							if( !empty($image) ): ?>
 
-						<div id="headshot-container"> <img class="img-responsive" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" /></div>
+							<div id="headshot-container" style="background-image: url('<?php echo get_site_url(); ?>/wp-content/uploads/2017/09/jazzy-90s-solo-cup-design-t-shirt-2338.jpg');"> <img class="img-responsive" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" /></div>
 
-						<?php endif; ?>
-						
-					</div>
-					<div class="col-xs-12 col-md-6">
-						<div id="intro-container"> <h1>hunter kempton</h1></div>
-						<?php echo the_content(); ?>
-					</div>
-				</div>
+							<?php endif; ?>
+							
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<div id="intro-container">
+							 <h1>hunter kempton</h1>
+							<?php echo the_content(); ?>
+							</div>
+						</div>
+					
 			</div>
 		</div>
 
