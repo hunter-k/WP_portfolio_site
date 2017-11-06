@@ -16,6 +16,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 body {
 	font-family: verdana;
+	color: #666666;
+}
+
+h1 {
+	color: #000;
 }
 
 #Me-page {
@@ -24,7 +29,7 @@ body {
 }
 
 #Portfolio-page {
-	background-color: lightgrey;
+	background-color: #d9d9d9;
 }
 #menu {
 	position: fixed;
@@ -56,8 +61,10 @@ body {
 }
 
 #intro-container{
-	background-color: lightgrey;
+	background-color: #d9d9d9;
 	text-align: center;
+	padding: 5%;
+	border-radius: 15px;
 }
 
 .hype-img {
@@ -121,12 +128,11 @@ body {
 }
 
 .project {
-	background-color: rgba(13, 81, 44, 0.5);
-	color: white;
+	background-color: rgba(217,217,217,.9);
 	border-radius: 15px;
+	 border: 1px solid #000000;    
+    
+    -moz-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
 }
-
-#Portfolio-page {
-	background-color: rgb(255, 251, 63);
-}
-

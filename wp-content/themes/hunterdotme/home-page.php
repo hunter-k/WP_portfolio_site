@@ -13,7 +13,8 @@
 	</ul>
 
 	<div id="fullpage">
-	<?php $first_bg_image = get_field('first_bg_image'); ?>
+	<?php $first_bg_image = get_field('first_bg_image');
+			$second_bg_image = get_field('second_bg_image'); ?>
 		<div class="section" id="Me-page" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('<?php echo $first_bg_image; ?>');">
 				<div class="inner-me-page row">
 					
@@ -40,7 +41,7 @@
 		</div>
 
 
-		<div class="section" id="Portfolio-page">
+		<div class="section" id="Portfolio-page" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('<?php echo $second_bg_image; ?>');">
 			<?php
 				$projects = new WP_Query(
 						array(
