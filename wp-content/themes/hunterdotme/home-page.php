@@ -14,7 +14,8 @@
 
 	<div id="fullpage">
 	<?php $first_bg_image = get_field('first_bg_image');
-			$second_bg_image = get_field('second_bg_image'); ?>
+		  $second_bg_image = get_field('second_bg_image');
+		  $third_bg_image = get_field('third_bg_image'); ?>
 		<div class="section" id="Me-page" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('<?php echo $first_bg_image; ?>');">
 				<div class="inner-me-page row">
 					
@@ -71,21 +72,15 @@
 			<?php endwhile; ?>
 	</div>
 
-	<div class="section" id="Contact-page">
-		
-			<h1 style="text-align: center;">Contact Me</h1>
-				
+	<div class="section" id="Contact-page" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('<?php echo $third_bg_image; ?>'">
+
 				<div class="row">
-					<div class="col-md-10 col-md-offset-1 contact-form"
+					<div class="col-md-4 col-md-offset-4 contact-form"
+						<h1 style="text-align: center;">Contact Me</h1>
 						<?php echo do_shortcode( '[contact-form-7 id="23" title="Contact form 1"]' ); ?>
 					</div>
 				</div>
-			
-			
 	</div>
-
-
-
 
 <?php endwhile; ?>
 <?php endif; ?>

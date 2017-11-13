@@ -54,8 +54,7 @@ $(document).ready(function() {
 		responsiveWidth: 0,
 		responsiveHeight: 0,
 		responsiveSlides: false,
-		parallax: true,
-		parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
+		parallax: false,
 
 		//Custom selectors
 		sectionSelector: '.section',
