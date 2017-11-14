@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	$('#fullpage').fullpage({
-		
+
 		menu: '#menu',
 		lockAnchors: false,
 		anchors:['Me', 'Portfolio','Contact'],
@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 		//Scrolling
 		css3: true,
-		scrollingSpeed: 1000,
+		scrollingSpeed: 750,
 		autoScrolling: true,
 		fitToSection: true,
 		fitToSectionDelay: 500,

@@ -1,5 +1,5 @@
 <?php
- /* Template Name: Home page */ 
+ /* Template Name: Home page */
  ?>
 <?php get_header(); ?>
 
@@ -18,9 +18,9 @@
 		  $third_bg_image = get_field('third_bg_image'); ?>
 		<div class="section" id="Me-page" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('<?php echo $first_bg_image; ?>');">
 				<div class="inner-me-page row">
-					
+
 						<div class="col-xs-12 col-md-6">
-							<?php 
+							<?php
 
 							$image = get_field('main_image');
 
@@ -29,15 +29,18 @@
 							<div id="headshot-container" style="background-image: url('<?php echo get_site_url(); ?>/wp-content/uploads/2017/09/jazzy-90s-solo-cup-design-t-shirt-2338.jpg');"> <img class="img-responsive" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" /></div>
 
 							<?php endif; ?>
-							
+
 						</div>
 						<div class="col-xs-12 col-md-6">
 							<div id="intro-container">
 							 <h1>hunter kempton</h1>
-							<?php echo the_content(); ?>
+							    <p><?php echo the_content(); ?></p>
+                  <a href="https://github.com/hunter-k/" target="_blank"><i class="fa fa-github social" aria-hidden="true"></i></a>
+                  <span class="social">&nbsp;&nbsp;</span>
+                  <a href="https://www.linkedin.com/in/hunterskempton/" target="_blank"><i class="fa fa-linkedin social" aria-hidden="true"></i></a>
 							</div>
 						</div>
-					
+
 			</div>
 		</div>
 
@@ -52,14 +55,14 @@
 							)
 					);
 				while ($projects->have_posts()) : $projects->the_post();
-				
-					
+
+
 					$featured_image = get_field('main_image');
 					$short_text = get_field('short_text');
 					$second_image = get_field('third_image');
 					$third_image = get_field('third_image');
-				
-			 ?> 
+
+			 ?>
 					<div class="slide" data-anchor="<?php echo get_the_title(); ?>">
 						<div class="row">
 							<div class="project col-md-8 col-md-offset-2">

@@ -1,6 +1,6 @@
 /*
 Theme Name: hunterdotme
-Theme URI: 
+Theme URI:
 Author: the Hunter Kempton
 Author URI: http://hunterkempton.me
 Description: The theme for my portfolio page
@@ -23,7 +23,7 @@ h1 {
 	color: #000;
 }
 
-#Me-page {
+.section {
 	background-size: cover;
     background-position: center 80%;
 }
@@ -130,9 +130,14 @@ h1 {
 .project {
 	background-color: rgba(217,217,217,.9);
 	border-radius: 15px;
-	 border: 1px solid #000000;    
-    
+	 border: 1px solid #000000;
+
     -moz-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
     -webkit-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
     box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+}
+
+.social {
+	font-size: 36px;
+	color: black;
 }
