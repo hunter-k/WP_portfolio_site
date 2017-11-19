@@ -40,15 +40,22 @@ h1 {
 #menu li{
 	display: inline;
 	background-color: rgba(157, 167, 183, 0.5);
-	width: 150px;
-	padding: 20px;
-	border-radius: 15px;
+	min-width: 200px;
+	padding: 10px 20px 10px;
 	color: black;
 	font-size: 2em;
 }
 
-#menu li:hover{
+#menu li:hover {
 	background-color: rgba(157, 167, 183, 0.9);
+}
+
+#menu a {
+	text-decoration: none;
+}
+
+#menu a:hover{
+	text-decoration: none;
 }
 
 #headshot-container {
@@ -140,4 +147,10 @@ h1 {
 .social {
 	font-size: 36px;
 	color: black;
+}
+
+.contact-form {
+	background-color: rgba(217,217,217,.9);
+	text-align: center;
+	border-radius: 15px;
 }

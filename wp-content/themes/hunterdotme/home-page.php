@@ -65,7 +65,7 @@
 			 ?>
 					<div class="slide" data-anchor="<?php echo get_the_title(); ?>">
 						<div class="row">
-							<div class="project col-md-8 col-md-offset-2">
+							<div class="project col-xs-8 col-xs-offset-2">
 								<h1><?php echo get_the_title(); ?></h1>
 								<span><img width="200" height="40" class="main-project-image img-responsive" src="<?php echo $featured_image["sizes"]["large"]; ?>"></span>
 								<p><?php echo $short_text; ?></p>
@@ -78,7 +78,7 @@
 	<div class="section" id="Contact-page" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('<?php echo $third_bg_image; ?>'">
 
 				<div class="row">
-					<div class="col-md-4 col-md-offset-4 contact-form"
+					<div class="col-md-6 col-md-offset-3 contact-form">
 						<h1 style="text-align: center;">Contact Me</h1>
 						<?php echo do_shortcode( '[contact-form-7 id="23" title="Contact form 1"]' ); ?>
 					</div>
