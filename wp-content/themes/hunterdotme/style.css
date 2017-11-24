@@ -81,12 +81,23 @@ h1 {
 }
 
 .project {
+	padding-bottom: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.project-content {
+		text-align: left;
+		margin-left: 10px;
+}
+
+.project h1 {
 	text-align: center;
 }
 
 .main-project-image {
-	float: none;
-	margin: 0 auto;
+	float: left;
+	margin-right: 10px;
 }
 
 .wpcf-7form p {

@@ -61,6 +61,8 @@
 					$short_text = get_field('short_text');
 					$second_image = get_field('third_image');
 					$third_image = get_field('third_image');
+          $link_url = get_field('link_url');
+          $source_code = get_field('source_code');
 
 			 ?>
 					<div class="slide" data-anchor="<?php echo get_the_title(); ?>">
@@ -68,7 +70,15 @@
 							<div class="project col-xs-8 col-xs-offset-2">
 								<h1><?php echo get_the_title(); ?></h1>
 								<span><img width="200" height="40" class="main-project-image img-responsive" src="<?php echo $featured_image["sizes"]["large"]; ?>"></span>
-								<p><?php echo $short_text; ?></p>
+								<div class="project-content"><?php echo $short_text; ?></div>
+                <p></p>
+                  <?php if ($link_url) { ?>
+                    <p><a target="_blank" href="<?php echo $link_url ?>">Visit this Project</a><p>
+                  <?php } ?>
+                  <?php if ($source_code) { ?>
+                    <p><a title="View Source Code" target="_blank" href="<?php echo $source_code ?>"><i class="fa fa-code social" aria-hidden="true"></i>
+</a><p>
+                  <?php } ?>
 							</div>
 						</div>
 					</div>
