@@ -167,8 +167,14 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
-	body p{
-		font-size: 18px;
+	#menu{
+		display: none;
+	}
+	.contact-form {
+		padding: 10px;
+	}
+	.contact-form input, .contact-form textarea {
+		max-width: 75%;
 	}
 }
 

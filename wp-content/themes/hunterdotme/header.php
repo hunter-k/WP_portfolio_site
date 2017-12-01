@@ -10,6 +10,7 @@
 
 	  gtag('config', 'UA-110310452-1');
 	</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title><?php echo get_the_title() ?></title>
 	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.css" />
