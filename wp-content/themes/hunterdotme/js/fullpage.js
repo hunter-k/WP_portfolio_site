@@ -1,5 +1,13 @@
 $(document).ready(function() {
 
+	var isMobile;
+	if(screen.width < 480) {
+		isMobile = true;
+		return;
+	} else {
+		isMobile = false;
+	}
+
 	$('#fullpage').fullpage({
 
 		menu: '#menu',
@@ -15,7 +23,7 @@ $(document).ready(function() {
 		//Scrolling
 		css3: true,
 		scrollingSpeed: 750,
-		autoScrolling: true,
+		autoScrolling: isMobile,
 		fitToSection: true,
 		fitToSectionDelay: 500,
 		scrollBar: false,

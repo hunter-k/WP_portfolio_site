@@ -88,7 +88,7 @@
 	<div class="section" id="Contact-page" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('<?php echo $third_bg_image; ?>'">
 
 				<div class="row">
-					<div class="col-md-6 col-md-offset-3 contact-form">
+					<div class="col-xs-10 col-xs-offset-1 contact-form">
 						<h1 style="text-align: center;">Contact Me</h1>
 						<?php echo do_shortcode( '[contact-form-7 id="23" title="Contact form 1"]' ); ?>
 					</div>
