@@ -2,11 +2,12 @@ $(document).ready(function() {
 
 	var isMobile;
 	if(screen.width < 480) {
-		isMobile = true;
-		return;
-	} else {
 		isMobile = false;
+	} else {
+		isMobile = true;
 	}
+	console.log(isMobile);
+	console.log(screen.width);
 
 	$('#fullpage').fullpage({
 
