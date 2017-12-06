@@ -6,8 +6,8 @@ $(document).ready(function() {
 	} else {
 		isMobile = true;
 	}
-	console.log(isMobile);
-	console.log(screen.width);
+	// console.log(isMobile);
+	// console.log(screen.width);
 
 	$('#fullpage').fullpage({
 

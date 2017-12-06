@@ -182,3 +182,12 @@ h1 {
 .fp-controlArrow {
 	border-color: transparent transparent transparent rgba(157, 167, 183, 0.5);;
 }
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+	 background: rgba(157, 167, 183, 0.9) !important;
+
+  }
+
+#fp-nav ul li {
+	 margin-right: 0px !important;
+}
