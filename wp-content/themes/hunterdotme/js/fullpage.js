@@ -22,7 +22,7 @@ $(document).ready(function() {
 		//Scrolling
 		css3: true,
 		scrollingSpeed: 750,
-		autoScrolling: false, //isMobile,
+		autoScrolling: isMobile,
 		fitToSection: false,
 		fitToSectionDelay: 500,
 		scrollBar: false,
