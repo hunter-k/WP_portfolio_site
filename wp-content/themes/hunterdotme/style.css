@@ -164,6 +164,8 @@ h1 {
 	background-color: rgba(217,217,217,.9);
 	text-align: center;
 	border-radius: 15px;
+	padding-bottom: 10px;
+	padding-top: 2px;
 }
 
 @media screen and (max-width: 600px) {
@@ -176,12 +178,30 @@ h1 {
 	.contact-form input, .contact-form textarea {
 		max-width: 75%;
 	}
+	.main-project-image{
+		width: 50%;
+	}
+	.fp-controlArrow.fp-next {
+		border-width: 19.25px 0 19.25px 16px !important;
+	}
+	.fp-controlArrow.fp-prev {
+		border-width: 19.25px 16px 19.25px 0 !important;
+	}
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.fp-controlArrow.fp-next {
+	border-color: transparent transparent transparent rgba(157, 167, 183, 0.9) !important;
+}
+.fp-controlArrow.fp-prev {
+	border-color: transparent rgba(157, 167, 183, 0.9) transparent transparent !important;
 }
 
 
-.fp-controlArrow {
-	border-color: transparent transparent transparent rgba(157, 167, 183, 0.5);;
-}
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
 	 background: rgba(157, 167, 183, 0.9) !important;

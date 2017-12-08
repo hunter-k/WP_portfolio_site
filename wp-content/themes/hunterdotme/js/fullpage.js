@@ -6,8 +6,6 @@ $(document).ready(function() {
 	} else {
 		isMobile = true;
 	}
-	// console.log(isMobile);
-	// console.log(screen.width);
 
 	$('#fullpage').fullpage({
 
@@ -24,8 +22,8 @@ $(document).ready(function() {
 		//Scrolling
 		css3: true,
 		scrollingSpeed: 750,
-		autoScrolling: isMobile,
-		fitToSection: true,
+		autoScrolling: false, //isMobile,
+		fitToSection: false,
 		fitToSectionDelay: 500,
 		scrollBar: false,
 		easing: 'easeInOutCubic',
@@ -62,7 +60,7 @@ $(document).ready(function() {
 		fixedElements: '#header, .footer',
 		responsiveWidth: 0,
 		responsiveHeight: 0,
-		responsiveSlides: false,
+		responsiveSlides: true,
 		parallax: false,
 
 		//Custom selectors

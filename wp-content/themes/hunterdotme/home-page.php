@@ -69,7 +69,7 @@
 						<div class="row">
 							<div class="project col-xs-8 col-xs-offset-2">
 								<h1><?php echo get_the_title(); ?></h1>
-								<span><img width="200" height="40" class="main-project-image img-responsive" src="<?php echo $featured_image["sizes"]["large"]; ?>"></span>
+								<span><img width="200" height="40" class="img-responsive main-project-image" src="<?php echo $featured_image["sizes"]["large"]; ?>"></span>
 								<div class="project-content"><?php the_content() ?></div>
                 <p></p>
                   <?php if ($link_url) { ?>
@@ -87,7 +87,7 @@
 
 	<div class="section" id="Contact-page" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('<?php echo $third_bg_image; ?>'">
 
-    <div class="col-md-6 col-md-offset-3 contact-form" style="padding-right: 0px;">
+    <div class="col-centered col-xs-11 col-md-6 contact-form">
 						<h1 style="text-align: center;">Contact Me</h1>
 						<?php echo do_shortcode( '[contact-form-7 id="23" title="Contact form 1"]' ); ?>
 				</div>
