@@ -2,11 +2,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /hunterdotmewp/
+RewriteBase /wp_portfolio_site/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /hunterdotmewp/index.php [L]
+RewriteRule . /wp_portfolio_site/index.php [L]
 </IfModule>
 
 # END WordPress
