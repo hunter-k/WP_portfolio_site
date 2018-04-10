@@ -96,4 +96,18 @@
 <?php endwhile; ?>
 <?php endif; ?>
 
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Hunter kempton",
+      "disambiguatingDescription": "Software Developer from Detroit, MI",
+      "children": {
+        "@type": "Person",
+        "name": "Hunter Kempton",
+        "disambiguatingDescription": "Software Developer from Detroit, MI"
+      }
+    }
+    </script>
+
 <?php get_footer(); ?>
